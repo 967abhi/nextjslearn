@@ -1,11 +1,14 @@
-import React from 'react'
 
-const page = () => {
-  return (
-    <div>
-        <h1>About Page</h1>
-    </div>
-  )
+export const metadata={
+  title:"About abhishek"
 }
 
-export default page
+
+
+export default function About(){
+  return (
+    <>
+    <h1>About pages</h1>
+    </>
+  )
+}
